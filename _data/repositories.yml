@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - vinayakj02
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - IRIS-NITK/Staging-Server
+  - vinayakj02/SEEFOOD-classifier
+  - vinayakj02/IRIS-Systems-Task
+

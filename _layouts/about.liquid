@@ -49,20 +49,16 @@ layout: default
     {% endif %}
 
     <!-- Latest posts -->
+    <!--
     {% if page.latest_posts %}
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
+    -->
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
+    
 
     <!-- Social -->
     {% if page.social %}
@@ -72,5 +68,6 @@ layout: default
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
+    
   </article>
 </div>

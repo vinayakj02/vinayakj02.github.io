@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Systems and Networking ⚙️
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile/prof_pic.jpeg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
@@ -19,8 +16,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey there!! I'm Vinayak Vatsalya J, final year undergrad at National Institute of Technology, Karnataka. My major is Information Technology 💻. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm the Systems Lead @ [IRIS, NITK](https://iris.nitk.ac.in/about_us). Previously I've interned at [VISA Inc](https://www.visa.co.in/), [Fourth Frontier](https://fourthfrontier.com/)
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Some places where I volunteer are [Web Enthusiasts` Club](https://webclub.nitk.ac.in/), Computer Society of 
+[IEEE, NITK](https://ieee.nitk.ac.in/).
+
+I also write blogs, check them out at [vinayakj02.hashnode.dev](vinayakj02.hashnode.dev)
+
+I also play 🎸 and 🎹 when I'm not working, little bit of chess and solve puzzles. 
+
+
