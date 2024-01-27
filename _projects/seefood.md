@@ -16,7 +16,7 @@ category: previous
 
 SeeFood is a food image classifier trained on image data of hot dogs and other food items to classify whether food in the picture is a hotdog or not. To build this I used a pre-trained <b>Densenet121</b> model and applied transfer learning with the help of GPUs in cloud to fine tune the model to the hot-dogs dataset. This was made using <b>PyTorch</b> with <b>Python</b>. Made into a web application with <b>Flask</b>
 
-### Deployed on Heroku  
+### Deployed on   
 
 <a href="url"><img src="https://user-images.githubusercontent.com/74676945/176158998-adc45798-1a54-43d3-8155-ded6f093c289.png" align="left" height="318" width="900" ></a>
 
@@ -233,7 +233,7 @@ training loss : 0.23448901653289794 , validation loss : 0.26386004567146304 , Ac
 ```
 ### Result
 On training it for about 6 epochs I got around 86% accuracy. 
-You can try this [here](https://seefood-nothotdog.herokuapp.com/) 
+You can try this here, down cause heroku stopped their free hosting :|
 
 <p align="center" >
 <img src = "https://user-images.githubusercontent.com/74676945/187063085-454ab22f-b26b-4695-af2b-397f0e808744.png"> 

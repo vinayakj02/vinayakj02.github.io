@@ -4,6 +4,7 @@ title: Doc (Discord Dictionary Bot)
 description: A discord dictionary bot created using discord.py . It can also answer general Q&A ( using OpenAI's GPT3 ) .
 img: assets/img/projects/discord_bot/define-command.png
 importance: 3
+
 category: previous
 ---
 <hr>
@@ -58,27 +59,27 @@ pip install discord.py giphy_client openai requests
 
 
 <p align="center" >
-<img src="assets/img/discord_bot/all-command.png" width="300" height="300" />
+<img src="assets/img/projects/discord_bot/all-command.png" width="300" height="300" />
  </p>
 
 #### Use of the ques command
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="assets/img/discord_bot/ques-command.png" alt="example image" class="img-fluid rounded z-depth-1" />
+        <img src="assets/img/projects/discord_bot/ques-command.png" alt="example image" class="img-fluid rounded z-depth-1" />
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="assets/img/discord_bot/ques-command2.png" alt="example image" class="img-fluid rounded z-depth-1" />
+        <img src="assets/img/projects/discord_bot/ques-command2.png" alt="example image" class="img-fluid rounded z-depth-1" />
     </div>
 </div>
 
 #### Use of the define command 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img src="assets/img/discord_bot/define-command.png" alt="example image" class="img-fluid rounded z-depth-1" />
+        <img src="assets/img/projects/discord_bot/define-command.png" alt="example image" class="img-fluid rounded z-depth-1" />
     </div>
 </div>
 
