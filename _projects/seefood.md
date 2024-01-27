@@ -20,9 +20,7 @@ SeeFood is a food image classifier trained on image data of hot dogs and other f
 
 <a href="url"><img src="https://user-images.githubusercontent.com/74676945/176158998-adc45798-1a54-43d3-8155-ded6f093c289.png" align="left" height="318" width="900" ></a>
 
-<div class="caption">
-    <a href="https://seefood-nothotdog.herokuapp.com/">Gradio demo</a>
-</div>
+
 
 
 ## Model 
@@ -77,10 +75,10 @@ sudo docker run -it -d -p 7000:7000  seefood
 ```
 <br>
 
-Visit [localhost:7000](http://localhost:7000/) to view the site. 
+Visit localhost:7000 to view the site. 
 
 
-## Blog , also on [IEEE, NITK](https://ieee.nitk.ac.in/blog/SEEFOOD/)
+## Blog , also on [IEEE, NITK](https://ieee-nitk.github.io/blog/SEEFOOD/)
 
 SEEFOOD is an application which basically predicts if an image is an image of a hot-dog or not. This is based on the model used in the [HBO's Silicon Valley ](https://www.youtube.com/watch?v=vIci3C4JkL0).
 
@@ -136,7 +134,7 @@ images ,labels = next(data)
 plt.imshow(images[0][0,:,:],cmap='gray')
 plt.title(f"Label : {labels[0]}")
 ```
-<p align="center" >
+<p align="center">
 <img src="https://user-images.githubusercontent.com/74676945/187061960-e3844d01-b890-4671-bb4f-82e7a51a633f.png" width="300" height="300" />
  </p>
  
