@@ -56,32 +56,23 @@ pip install discord.py giphy_client openai requests
 ## Demo 
 #### Use of the all command
 
+![all-command](https://github.com/alshedivat/al-folio/assets/74676945/f59fb337-552f-41d5-9daf-0cb9400498ba)
 
 
-<p align="center" >
-<img src="assets/img/projects/discord_bot/all-command.png" width="300" height="300" />
- </p>
 
 #### Use of the ques command
+![ques-command2](https://github.com/alshedivat/al-folio/assets/74676945/bf0e8d6b-7c99-4493-b465-d2d621348512)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img src="assets/img/projects/discord_bot/ques-command.png" alt="example image" class="img-fluid rounded z-depth-1" />
-    </div>
-</div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img src="assets/img/projects/discord_bot/ques-command2.png" alt="example image" class="img-fluid rounded z-depth-1" />
-    </div>
-</div>
+![ques-command](https://github.com/alshedivat/al-folio/assets/74676945/21008d1d-a02c-44bf-b935-c445a72a839e)
+
+
 
 #### Use of the define command 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img src="assets/img/projects/discord_bot/define-command.png" alt="example image" class="img-fluid rounded z-depth-1" />
-    </div>
-</div>
+
+![define-command](https://github.com/alshedivat/al-folio/assets/74676945/d38ffd57-c7d8-4835-8df9-e7683e7dad56)
+
+
 
 
 
