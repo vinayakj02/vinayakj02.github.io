@@ -2,14 +2,15 @@
 layout: page
 title: Doc (Discord Dictionary Bot)
 description: A discord dictionary bot created using discord.py . It can also answer general Q&A ( using OpenAI's GPT3 ) .
-img: assets/img/projects/discord_bot/define-command.png
+img: assets/img/projects/discord_bot/all-command.png
 importance: 3
-
-category: previous
+category: </>
+github: https://github.com/vinayakj02/Discord-Dictionary-Bot
 ---
-<hr>
-<br>
-Doc is a Discord bot with features of a dictionary(and more) that is easy to set up and use ! [Source Code](https://github.com/vinayakj02/Discord-Dictionary-Bot)
+
+→ [source code](https://github.com/vinayakj02/Discord-Dictionary-Bot)
+
+Doc is a Discord bot with features of a dictionary(and more) that is easy to set up and use !
 
 ## Features
 * Get the definition of the any word in the english dictionary. 
