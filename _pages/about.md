@@ -23,7 +23,6 @@ I'm the Systems Lead @ [IRIS, NITK](https://iris.nitk.ac.in/about_us). Previousl
 Some places where I volunteer are [Web Enthusiasts` Club](https://webclub.nitk.ac.in/), Computer Society of 
 [IEEE, NITK](https://ieee.nitk.ac.in/).
 
-I also write blogs, check them out at [vinayakj02.hashnode.dev](vinayakj02.hashnode.dev)
 
 I also play 🎸 and 🎹 when I'm not working, little bit of chess and solve puzzles.
 
