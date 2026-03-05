@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined [Fourth Frontier](https://in.fourthfrontier.com/) as an summer SDE intern.
-:sparkles:
+Joined [Fourth Frontier](https://in.fourthfrontier.com/) as an SDE Intern [Summer of 2022]; worked on identyfing points of failure in arrhtmia detection and classification with ECG data.

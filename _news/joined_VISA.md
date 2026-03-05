@@ -5,7 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Joined [Visa Inc](https://www.visa.co.in/),Bangalore as a Summer Intern (SDE).
+Joined [Visa Inc](https://www.visa.co.in/), Bangalore as a Summer Intern (SDE), where I worked on identifying bottlenecks in campaign execution workflow.
 :computer:
-
 
