@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey there!! I work at [Visa Inc](https://www.visa.co.in/) as a Software Engineer. I graduated from the National Institute of Technology Karnataka (NITK) with a major in Information Technology 💻.
+Hey there!! I work at [Visa Inc](https://www.visa.co.in/) as a Senior Software Engineer. I graduated from the National Institute of Technology Karnataka (NITK) with a major in Information Technology 💻.
 
 My interests are broad, including but not limited to Containers, Databases, Computer Networking, and Backend Development.
 
