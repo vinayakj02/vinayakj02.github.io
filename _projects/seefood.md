@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SEEFOOD
+title: seefood
 description: It's shazam for food but only hotdogs (from HBO's Silicon Valley), made using transfer learning (Densenet121)
 img: assets/img/projects/seefood/seefood-1.gif
 importance: 1

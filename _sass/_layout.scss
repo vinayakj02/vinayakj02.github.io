@@ -6,6 +6,8 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: "EB Garamond", "Helvetica Neue", "Segoe UI", serif;
+  font-size: 1.25rem;
 
   h1,
   h2,
@@ -19,7 +21,7 @@ body {
 
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
-  padding-top: 56px;
+  padding-top: 96px;
 }
 
 body.sticky-bottom-footer {

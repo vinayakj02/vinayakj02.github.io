@@ -192,7 +192,7 @@ blockquote {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .profile.float-left {
@@ -229,9 +229,36 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  opacity: 1;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  .navbar-brand {
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    padding-top: 0;
+    padding-bottom: 0;
+    transform: translateY(-4px);
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 2.5rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .nav-link {
+      font-family: "EB Garamond", "Helvetica Neue", "Segoe UI", serif;
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: var(--global-muted-text-color);
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
 }
 
 .navbar .dropdown-menu {
@@ -272,7 +299,7 @@ blockquote {
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-muted-text-color);
 
     &:hover {
       color: var(--global-hover-color);
@@ -281,7 +308,7 @@ blockquote {
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
+    font-weight: 600;
     color: var(--global-theme-color);
 
     &:hover {
@@ -589,6 +616,76 @@ footer.sticky-bottom {
 }
 
 // Projects
+
+.project-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .project-list-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+
+    + .project-list-item {
+      border-top: 1px solid var(--global-divider-color);
+    }
+
+    .project-list-thumb {
+      flex: 0 0 auto;
+      width: 96px;
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        border: 1px solid var(--global-divider-color);
+      }
+    }
+
+    .project-list-body {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .project-list-title {
+      font-size: 1.375rem;
+      font-weight: 600;
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-hover-color);
+      }
+    }
+
+    .project-list-github {
+      margin-left: 1rem;
+      font-size: 1.5rem;
+      color: var(--global-text-color-light);
+
+      &:hover {
+        color: var(--global-hover-color);
+      }
+    }
+
+    .project-list-live {
+      margin-left: 1rem;
+      font-size: 0.9rem;
+      color: var(--global-text-color-light);
+
+      &:hover {
+        color: var(--global-hover-color);
+      }
+    }
+
+    .project-list-desc {
+      margin: 0.25rem 0 0;
+      color: var(--global-text-color-light);
+      font-size: 1rem;
+    }
+  }
+}
 
 .projects {
   a {

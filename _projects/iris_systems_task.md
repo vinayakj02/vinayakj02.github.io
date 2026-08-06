@@ -1,7 +1,8 @@
 ---
 layout: page
 title: IRIS Systems - Docker & Infrastructure
-img: assets/img/projects/staging_server/docker.webp
+description: An 8-stage progressive task learning production-grade infrastructure — Docker, Nginx, load balancing, and automated backups — while building IRIS's deployment setup.
+img: assets/img/projects/staging_server/iris_logo.jpg
 importance: 2
 category: </>
 github: https://github.com/vinayakj02/IRIS-Systems-Task

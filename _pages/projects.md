@@ -10,56 +10,38 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<hr>
+
 <div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
+{% assign sorted_projects = site.projects | where: "category", "</>" | sort: "importance" %}
+
+<ul class="project-list">
+  {% for project in sorted_projects %}
+    <li class="project-list-item">
+      {% if project.img %}
+        {% if project.redirect %}
+          <a href="{{ project.redirect }}" class="project-list-thumb">
+        {% else %}
+          <a href="{{ project.url | relative_url }}" class="project-list-thumb">
+        {% endif %}
+          <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" loading="lazy">
+        </a>
+      {% endif %}
+      <div class="project-list-body">
+        {% if project.redirect %}
+          <a href="{{ project.redirect }}" class="project-list-title">{{ project.title }}</a>
+        {% else %}
+          <a href="{{ project.url | relative_url }}" class="project-list-title">{{ project.title }}</a>
+        {% endif %}
+        <a href="{{ project.github }}" class="project-list-github" title="GitHub repository">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        {% if project.redirect_live %}
+          <a href="{{ project.redirect_live }}" class="project-list-live">live at {{ project.redirect_live | remove: 'https://' }}</a>
+        {% endif %}
+        <p class="project-list-desc">{{ project.description }}</p>
+      </div>
+    </li>
   {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+</ul>
 </div>
