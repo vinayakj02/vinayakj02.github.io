@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://vinayakj02.github.io/sitemap.xml
+Sitemap: https://vinayakj02.com/sitemap.xml
