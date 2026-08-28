@@ -53,8 +53,7 @@ jobs:
           printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H "$HOST" >> ~/.ssh/known_hosts
-          rsync -az --delete -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=yes" _site/ "$USER@$HOST:/var/www/vinayakj02/"
-          ssh -i ~/.ssh/deploy_key "$USER@$HOST" "sudo chown -R www-data:www-data /var/www/vinayakj02"
+          rsync -az --delete -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=yes" _site/ "$USER@$HOST:staging-vinayakj02/"
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
