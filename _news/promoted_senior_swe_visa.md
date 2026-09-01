@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Promoted to Senior Software Engineer @ [Visa Inc](https://www.visa.co.in/) 🚀
+Promoted to Software Engineer II @ [Visa Inc](https://www.visa.co.in/) 🚀
