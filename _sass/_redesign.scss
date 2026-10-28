@@ -1,0 +1,211 @@
+/*******************************************************************************
+ * Option A — minimal, typography-led
+ ******************************************************************************/
+
+.redesign-minimal {
+  font-family: "Newsreader", "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  letter-spacing: 0.005em;
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Newsreader", Georgia, serif;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  a {
+    text-underline-offset: 0.18em;
+    text-decoration-thickness: 1px;
+  }
+
+  .navbar {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid transparent;
+
+    .navbar-brand {
+      font-family: "Newsreader", Georgia, serif;
+      font-size: 1.35rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      transform: none;
+    }
+
+    .navbar-nav .nav-item {
+      margin-right: 1.5rem;
+
+      .nav-link {
+        font-family: "Inter", "Helvetica Neue", sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+    font-weight: 600;
+    color: var(--global-text-color);
+  }
+
+  #light-toggle {
+    font-size: 0.9rem;
+  }
+
+  .masthead {
+    margin-bottom: 1.75rem;
+
+    .desc {
+      font-family: "Inter", "Helvetica Neue", sans-serif;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--global-muted-text-color);
+      margin-bottom: 0.4rem;
+    }
+
+    .masthead-name {
+      font-size: 2.6rem;
+      font-weight: 500;
+      margin: 0 0 1.5rem;
+    }
+  }
+
+  .profile {
+    img {
+      border-radius: 2px;
+      box-shadow: none;
+      border: 1px solid var(--global-divider-color);
+    }
+  }
+
+  .profile.float-right {
+    margin-left: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  article p {
+    margin-bottom: 1.15rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .post-header .post-title {
+    font-size: 2.25rem;
+    font-weight: 500;
+  }
+
+  .post-description {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 0.95rem;
+    color: var(--global-text-color-light);
+  }
+
+  .social {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--global-divider-color);
+
+    .contact-icons {
+      font-size: 1.35rem;
+
+      a {
+        margin: 0 0.55rem;
+      }
+    }
+  }
+
+  footer.sticky-bottom,
+  footer.fixed-bottom {
+    background-color: var(--global-footer-bg-color);
+    border-top: 1px solid var(--global-divider-color);
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.02em;
+    margin-top: 3rem;
+  }
+
+  .news {
+    font-size: 1rem;
+
+    table th,
+    table td {
+      font-size: 1rem;
+      vertical-align: top;
+      padding: 0.55rem 0;
+    }
+
+    table th {
+      font-family: "Inter", "Helvetica Neue", sans-serif;
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      color: var(--global-muted-text-color);
+      white-space: nowrap;
+    }
+  }
+
+  .project-list {
+    .project-list-item {
+      align-items: flex-start;
+      padding: 1.5rem 0;
+      gap: 1.75rem;
+    }
+
+    .project-list-title {
+      font-family: "Newsreader", Georgia, serif;
+      font-size: 1.35rem;
+      font-weight: 500;
+    }
+
+    .project-list-desc {
+      font-size: 1.02rem;
+      line-height: 1.55;
+      margin-top: 0.4rem;
+    }
+
+    .project-list-thumb {
+      width: 88px;
+      padding-top: 0.25rem;
+
+      img {
+        border-radius: 2px;
+        box-shadow: none;
+      }
+    }
+
+    .project-list-github,
+    .project-list-live {
+      font-size: 0.85rem;
+      font-family: "Inter", "Helvetica Neue", sans-serif;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .redesign-minimal {
+    .masthead .masthead-name {
+      font-size: 2rem;
+    }
+
+    .profile.float-right {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}
