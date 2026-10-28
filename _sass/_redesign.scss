@@ -1,0 +1,303 @@
+/*******************************************************************************
+ * Option B — modern, bold, card-based
+ ******************************************************************************/
+
+.redesign-bold {
+  font-family: "Outfit", "Helvetica Neue", sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+
+  &.fixed-top-nav {
+    padding-top: 88px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Syne", "Outfit", sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .navbar {
+    background: var(--hero-bg);
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+
+    .navbar-brand {
+      font-family: "Syne", sans-serif;
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      transform: none;
+      color: var(--hero-text) !important;
+
+      span,
+      .font-weight-bold {
+        color: var(--hero-text) !important;
+      }
+    }
+
+    .navbar-nav .nav-item {
+      margin-right: 1.25rem;
+
+      .nav-link {
+        font-family: "Outfit", sans-serif;
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: rgba(244, 247, 251, 0.72) !important;
+      }
+    }
+  }
+
+  .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link,
+  .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: var(--accent-bright) !important;
+    font-weight: 700;
+  }
+
+  .navbar-toggler .icon-bar {
+    background-color: var(--hero-text);
+  }
+
+  #light-toggle {
+    color: var(--hero-text);
+
+    &:hover {
+      color: var(--accent-bright);
+    }
+  }
+
+  #progress {
+    color: var(--accent-bright);
+  }
+
+  .hero {
+    background: var(--hero-bg);
+    color: var(--hero-text);
+    border-radius: 28px;
+    padding: 2.4rem 2.2rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 24px 60px rgba(11, 31, 58, 0.22);
+  }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(180px, 0.65fr);
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .hero-kicker {
+    font-family: "Outfit", sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent-bright);
+    margin-bottom: 0.4rem;
+  }
+
+  .hero-name {
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
+    color: var(--hero-text);
+    margin: 0 0 1rem;
+    line-height: 0.95;
+  }
+
+  .hero-bio {
+    p {
+      color: rgba(244, 247, 251, 0.88);
+      font-size: 1.05rem;
+      margin-bottom: 0.9rem;
+    }
+
+    a {
+      color: var(--accent-bright);
+      font-weight: 600;
+    }
+  }
+
+  .hero-profile img {
+    width: 100%;
+    border-radius: 22px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+    border: 3px solid var(--accent-bright);
+  }
+
+  article h2 {
+    font-size: 1.7rem;
+    margin: 0 0 1rem;
+  }
+
+  .news {
+    background: var(--global-card-bg-color);
+    border-radius: 18px;
+    padding: 1.2rem 1.4rem;
+    box-shadow: 0 10px 30px rgba(11, 31, 58, 0.08);
+
+    table th,
+    table td {
+      font-size: 0.98rem;
+      padding: 0.7rem 0.4rem;
+    }
+
+    table th {
+      color: var(--global-theme-color);
+      font-weight: 700;
+      white-space: nowrap;
+    }
+  }
+
+  .social {
+    margin-top: 2rem;
+
+    .contact-icons {
+      font-size: 1.8rem;
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 3.1rem;
+        height: 3.1rem;
+        margin: 0 0.35rem;
+        border-radius: 999px;
+        background: var(--global-theme-color);
+
+        i::before {
+          color: #fff;
+        }
+
+        &:hover {
+          background: var(--global-hover-color);
+        }
+      }
+    }
+  }
+
+  .post article > hr:first-of-type {
+    display: none;
+  }
+
+  .post-header .post-title {
+    font-size: 2.6rem;
+  }
+
+  .post-description {
+    font-size: 1.05rem;
+    color: var(--global-text-color-light);
+  }
+
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    margin-top: 0.5rem;
+
+    .project-list-item {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+      padding: 0;
+      background: var(--global-card-bg-color);
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid var(--global-divider-color);
+      box-shadow: 0 12px 28px rgba(11, 31, 58, 0.08);
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+
+      + .project-list-item {
+        border-top: 1px solid var(--global-divider-color);
+      }
+
+      &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 18px 36px rgba(11, 31, 58, 0.14);
+      }
+    }
+
+    .project-list-thumb {
+      width: 100%;
+
+      img {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+        border-radius: 0;
+        border: 0;
+      }
+    }
+
+    .project-list-body {
+      padding: 1.05rem 1.15rem 1.2rem;
+    }
+
+    .project-list-title {
+      font-family: "Syne", sans-serif;
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: var(--global-text-color);
+    }
+
+    .project-list-desc {
+      color: var(--global-text-color-light);
+      font-size: 0.95rem;
+      margin-top: 0.45rem;
+    }
+
+    .project-list-github,
+    .project-list-live {
+      color: var(--global-theme-color);
+    }
+  }
+
+  footer.sticky-bottom,
+  footer.fixed-bottom {
+    background: var(--global-footer-bg-color);
+    color: var(--global-footer-text-color);
+    margin-top: 3rem;
+    border: 0;
+    font-size: 0.78rem;
+
+    .container,
+    .container * {
+      color: var(--global-footer-text-color);
+    }
+
+    a {
+      color: var(--global-footer-link-color);
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .redesign-bold {
+    .hero {
+      padding: 1.5rem 1.2rem;
+      border-radius: 18px;
+    }
+
+    .hero-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-profile {
+      order: -1;
+      max-width: 240px;
+    }
+
+    .project-list {
+      grid-template-columns: 1fr;
+    }
+  }
+}
