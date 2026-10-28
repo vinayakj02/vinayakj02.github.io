@@ -27,7 +27,7 @@ $(document).ready(function () {
   cssLink.type = "text/css";
 
   let theme = localStorage.getItem("theme");
-  if (theme == null || theme == "null") {
+  if (theme !== "light" && theme !== "dark") {
     theme = "light";
   }
 

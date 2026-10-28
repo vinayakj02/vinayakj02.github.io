@@ -128,7 +128,9 @@ let transTheme = () => {
 };
 
 let initTheme = (theme) => {
-  if (theme == null || theme == "null") {
+  // First-time visitors (no saved choice) always get light, even if the OS
+  // prefers a dark color scheme. Only an explicit light/dark toggle is kept.
+  if (theme !== "light" && theme !== "dark") {
     theme = "light";
   }
 
